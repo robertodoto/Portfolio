@@ -1,0 +1,92 @@
+* {
+    font-family: "Cutive Mono", monospace;
+    color: rgb(21, 20, 20);
+    background-color: rgb(89, 101, 70);
+  }
+
+/* NAVBAR */
+
+nav {
+    background-color: rgb(51, 50, 50);
+}
+ul {
+    list-style: none;
+    display: flex;
+    border: 0.3em rgb(51, 50, 50) solid;
+    justify-content: space-around;
+    background-color: rgb(51, 50, 50);
+    padding: 0.4em; 
+}
+
+li {
+    padding: 0.3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: larger;
+    color: rgb(219, 226, 231);
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color: rgb(21, 20, 20)
+}
+
+
+/* PRIMA PARTE */
+
+.firstimpact {
+    
+ } 
+
+ h1 {
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+ }
+
+ .developer {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+ }
+
+ h2 {
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+ }
+
+  img {
+    height: 20em;
+    width: auto;   
+    display: block;
+    margin: auto;
+  }
+
+
+  /* ABOUT ME */
+
+  .aboutme {
+    display: block;
+    padding: 2em 4em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    font-style: italic;
+    padding-left: 1em;
+    text-shadow: 0.1em;
+  }
+
+  .selfdescription {
+    text-align: justify;
+    tex
+  }
