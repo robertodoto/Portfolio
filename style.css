@@ -113,6 +113,7 @@ a:visited{
   .sorryforthat {
     padding: 0.5em;
     background-color: rgb(163, 37, 37);
+    font-style: italic;
   }
 
   /* CONTACT ME */
