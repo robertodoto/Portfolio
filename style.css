@@ -88,7 +88,6 @@ a:visited{
 
   .selfdescription {
     text-align: justify;
-    tex
   }
 
   /* PROJECTS */
@@ -102,5 +101,35 @@ a:visited{
 
   .contactme {
     display: block;
+    width: auto;
+    margin: auto;
     padding: 2em 4em;
+  }
+
+  label {
+    margin-top: 1em;
+  }
+
+  input {
+    margin-bottom: 2em;
+    background-color: rgb(51, 50, 50);
+    color: rgb(233, 224, 224);
+  }
+
+  textarea {
+    background-color: rgb(51, 50, 50);
+    color: rgb(255, 255, 255);
+    width: 20em;
+    height: 7em;
+    font-style: italic;
+    margin-bottom: 2em;
+  }
+
+  button {
+    background-color:rgb(51, 50, 50);
+    color: rgb(255, 255, 255);
+  }
+
+  button:hover {
+    font-size: larger;
   }
