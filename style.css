@@ -9,21 +9,25 @@
 nav {
     background-color: rgb(51, 50, 50);
 }
+
 ul {
     list-style: none;
     display: flex;
-    border: 0.3em rgb(51, 50, 50) solid;
     justify-content: space-around;
-    background-color: rgb(51, 50, 50);
-    padding: 0.4em; 
+    background-color: rgb(21, 20, 20);
+    padding: 1em; 
+    color: rgb(89, 101, 70);
 }
 
 li {
     padding: 0.3em;
+    background-color: rgb(21, 20, 20);
+    color: rgb(89, 101, 70);
 }
 
 a {
     text-decoration: none;
+    padding: 0.5em;
 }
 
 a:hover {
@@ -71,14 +75,6 @@ a:visited{
     margin: auto;
   }
 
-
-  /* ABOUT ME */
-
-  .aboutme {
-    display: block;
-    padding: 2em 4em;
-  }
-
   h3 {
     font-size: 1.5em;
     font-style: italic;
@@ -86,8 +82,20 @@ a:visited{
     text-shadow: 0.1em;
   }
 
+  /* ABOUT ME */
+
+  .aboutme {
+    display: block;
+    padding: 2em 4em;
+    background-color: rgb(21, 20, 20);
+  }
+
+  
+
   .selfdescription {
     text-align: justify;
+    background-color: rgb(21, 20, 20);
+    color:rgb(89, 101, 70);
   }
 
   /* PROJECTS */
@@ -97,6 +105,16 @@ a:visited{
     padding: 2em 4em;
   }
 
+  .showprojects {
+    margin-left: 3em;
+    font-size: large;
+  }
+
+  .sorryforthat {
+    padding: 0.5em;
+    background-color: rgb(163, 37, 37);
+  }
+
   /* CONTACT ME */
 
   .contactme {
@@ -104,10 +122,22 @@ a:visited{
     width: auto;
     margin: auto;
     padding: 2em 4em;
+    background-color: rgb(21, 20, 20);
+  }
+
+  h4 {
+    background-color: rgb(21, 20, 20);
+    color: rgb(89, 101, 70);
+  }
+
+  form {
+    background-color: rgb(21, 20, 20);
   }
 
   label {
     margin-top: 1em;
+    background-color: rgb(21, 20, 20);
+    color: rgb(89, 101, 70);
   }
 
   input {
