@@ -90,3 +90,17 @@ a:visited{
     text-align: justify;
     tex
   }
+
+  /* PROJECTS */
+
+  .projects {
+    display: block;
+    padding: 2em 4em;
+  }
+
+  /* CONTACT ME */
+
+  .contactme {
+    display: block;
+    padding: 2em 4em;
+  }
